@@ -87,6 +87,10 @@ button {
   display: none;
 }
 
+.submenu-item svg {
+  display:block;
+}
+
 
 .submenu {
   position: absolute;
@@ -1308,6 +1312,10 @@ button {
     font-size: 16px;
     line-height: 22px;
   }
+
+	.submenu-item svg {
+  	display:none;
+	}
 }
 
 @media(max-width: 768px) {
